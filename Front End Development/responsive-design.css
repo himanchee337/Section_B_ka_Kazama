@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-image: linear-gradient(purple, white);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+   align-items: center;
+    gap: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+section p{
+margin: 2rem 10px;
+    
+}
+
+section button{
+
+    background-image: linear-gradient(purple,white);
+    border-radius: 20px;
+    color: white;
+    padding: 0.6rem;
+    width: 400px;
+    border: 0px;
+}
+
+section h1{
+
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section .one{
+
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+section .two{
+
+    border: 1px solid grey;
+     border-radius: 15px;
+         text-align: center;
+    margin-right: 40px;
+
+}
+
+section .three{
+
+    border: 1px solid grey;
+     border-radius: 15px;
+         text-align: center;
+    margin-right: 40px;
+
+}
+
+section .four{
+
+    border: 1px solid grey;
+     border-radius: 15px;
+         text-align: center;
+
+}
+
+h2{
+    padding-top: 10px;
+}

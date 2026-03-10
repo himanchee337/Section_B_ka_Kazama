@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    color: white;
+}
+
+.header{
+
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+li{
+    margin-right: 40px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+}
+
+.main-section{
+    background-image: url(https://images.pexels.com/photos/15693277/pexels-photo-15693277/free-photo-of-dubai-downtown-at-night.jpeg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: bisque;
+    background-color: rgba(6, 6, 6, 0.6);
+}
+
+button{
+    background-color: black;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 200px;
+}

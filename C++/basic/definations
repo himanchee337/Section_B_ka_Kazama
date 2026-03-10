@@ -1,0 +1,77 @@
+// Namespace 
+// namespace is a decelative region in which identifiers are defined like functions , objects , variables etc to reduce ambiguity means a same name function can be defined in diffrent namespaces 
+// we can use identifiers from nmespace by two methods 
+
+// 1) using namespace maths;
+// 2) namespace name :: identifier
+// eg- maths::pi;
+// // ek file m ek hi main function hoga 
+// @asscayy bheluuu
+// 65-90 A to Z
+// 97-122 a to z.
+// 32 space 
+// 48-57 (0 to 9)
+// Auto variables
+// auto vaeiable automatically deduces (derive) the type of variable it has to declare from the expression we give it at thime of decration 
+// we are required to give value or expression at the tym of decraring auto variable 
+// // eg #include <iostream>
+// // using namespace std;
+// // int main(){
+//     // auto a='D'; //a=3;//a=4.12f; 
+//     // cout<<"value of a= "<<a<<endl;
+//     // a= 105; //5.34;//a=9;
+//     // cout<<a;
+//     // return 0;
+
+// // }
+// #include<iostream>
+// using namespace std;
+// void swap (int a, int b){
+//     int t=a;
+//     a=b;
+//     b=t;
+
+// }
+// int  main(){
+//     int a=5,b=20;
+//     cout<<"value before swap : "<<a<<" "<<b;
+//     swap(a,b);
+//     cout<<" values after swap : "<<a<<" "<<b;
+//     return 0;
+// }
+// #include<iostream>
+// using namespace std;
+// void swap(int a, int b){
+//     cout<<"value beore swap in function : "<<a<<" "<<b<<endl;
+//     int t=a;
+//     int a=b;
+//     b=t;
+//     cout<<"value after swap in function : "<<a<<" "<<b<<endl;
+
+// }
+// int main(){
+//     int a=5,b=20;
+//     cout<<"values before swap : "<<a<<" "<<b<<endl;
+//     swap(&a,&b);
+//     cout<<"values after swap : "<<a<<" "<<b<<endl;
+//     return 0;
+
+// }
+#include<iostream>
+using namespace std;
+void swap(int *a, int *b){
+
+    int t=*a;
+     *a=*b;
+    *b=t;
+
+
+}
+int main(){
+    int a=5,b=20;
+    cout<<"values before swap : "<<a<<" "<<b<<endl;
+    swap(&a,&b);
+    cout<<"values after swap : "<<a<<" "<<b<<endl;
+    return 0;
+
+}
